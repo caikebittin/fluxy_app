@@ -13,7 +13,7 @@ const LoginPage = async () => {
   return (
     <div className="grid h-full grid-cols-2">
       {/* ESQUERDA */}
-      <div className="mx-auto flex flex-col h-full max-w-[550px] justify-center p-8">
+      <div className="mx-auto flex h-full max-w-[550px] flex-col justify-center p-8">
         <Image
           src="/logo.png"
           width={185}
@@ -21,8 +21,8 @@ const LoginPage = async () => {
           alt="Fluxy Logo"
           className="mb-5"
         />
-        <h1 className="text-4xl font-bold mb-3">Bem-vindo</h1>
-        <p className="text-muted-foreground mb-8">
+        <h1 className="mb-3 text-4xl font-bold">Bem-vindo</h1>
+        <p className="mb-8 text-muted-foreground">
           O Fluxy é uma plataforma de gestão financeira que utiliza IA para
           monitorar suas movimentações, e oferecer insights personalizados,
           facilitando o controle do seu orçamento.
